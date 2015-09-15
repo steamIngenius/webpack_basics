@@ -1,9 +1,9 @@
 let checkName = (firstName, lastName) => {
-    if (firstName !== 'nader' || lastName !== 'dabit') {
-        console.log('You are not Nader Dabit');
+    if (firstName !== 'micah' || lastName !== 'hawkins') {
+        console.log('You are not Micah Hawkins');
     } else {
-        console.log('You are Nader Dabit!');
+        console.log('You are Micah Hawkins!');
     }
 }
 
-checkName('nader', 'jackson');
+checkName('micah', 'jackson');
