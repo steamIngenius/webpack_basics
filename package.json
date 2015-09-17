@@ -17,5 +17,8 @@
     "node-libs-browser": "^0.5.2",
     "strip-loader": "^0.1.0",
     "webpack": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
   }
 }

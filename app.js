@@ -1,5 +1,7 @@
-require('./logger');
+import React from "react";
+import Hello from "./hello";
 
-document.write('welcome to my Webpack basics regimen');
-
-console.log('app loaded');
+React.render(
+    <Hello name="World" />,
+    document.body
+);
